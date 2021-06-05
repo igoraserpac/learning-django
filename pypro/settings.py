@@ -30,11 +30,12 @@ DEBUG = config('DEBUG', cast=bool)
 
 ALLOWED_HOSTS = config('ALLOWED_HOSTS', cast=Csv())
 
-AUTH_USER_MODELS = 'base.User'
+AUTH_USER_MODEL = 'base.User'
 
 # Application definition
 
 INSTALLED_APPS = [
+    'pypro.base',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -42,7 +43,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'collectfast',
     'django.contrib.staticfiles',
-    'pypro.base',
 ]
 
 MIDDLEWARE = [
