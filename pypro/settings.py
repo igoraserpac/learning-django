@@ -30,11 +30,12 @@ DEBUG = config('DEBUG', cast=bool)
 
 ALLOWED_HOSTS = config('ALLOWED_HOSTS', cast=Csv())
 
-AUTH_USER_MODELS = 'base.User'
+AUTH_USER_MODEL = 'base.User'
 
 # Application definition
 
 INSTALLED_APPS = [
+    'pypro.base',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -42,7 +43,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'collectfast',
     'django.contrib.staticfiles',
-    'pypro.base',
 ]
 
 MIDDLEWARE = [
@@ -78,7 +78,7 @@ WSGI_APPLICATION = 'pypro.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
-default_db_url = 'sqlite:///' + str(BASE_DIR) + 'db.sqlite3'
+default_db_url = 'sqlite:///' + str(BASE_DIR) + '\\db.sqlite3'
 
 parse_database = partial(dj_database_url.parse, conn_max_age=600)
 
