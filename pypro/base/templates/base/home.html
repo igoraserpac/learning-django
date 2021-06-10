@@ -1,6 +1,6 @@
 {% load static %}
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" xmlns="http://www.w3.org/1999/html">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -39,10 +39,29 @@
 				<h2>
 					Curso de Python com Luciano Ramalho
 				</h2>
-				<p>
-					Confira em breve mais informações sobre o curso que será ministrado pelo autor do livro
-					<a href="https://www.oreilly.com/library/view/fluent-python/9781491946237/" target="_blank">Python Fluente</a>
-				</p>
+                <h4 class="mt-4">Entre na fila de espera</h4>
+				<form action="https://herokuapp.us6.list-manage.com/subscribe/post?u=82d63eca5085e8ebd8c71a3ea&amp;id=f998bd5b90"
+                      method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
+                      target="_blank" novalidate>
+<div class="form-row align-items-center mt-4">
+  <div class="col-auto">
+    <label class="sr-only" for="mce-EMAIL">Email</label>
+    <div class="input-group">
+      <input type="email" value="" name="EMAIL" class="form-control required" id="mce-EMAIL" placeholder="exemplo@email.com">
+    </div>
+  </div>
+  <div class="col-auto">
+    <label class="sr-only" for="mce-FNAME">Nome</label>
+    <div class="input-group">
+      <input type="text" value="" name="FNAME" class="form-control" id="mce-FNAME" placeholder="Seu Nome">
+    </div>
+  </div>
+
+  <div class="col-auto">
+    <input type="submit" value="Salvar" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary">
+  </div>
+</div>
+</form>
 			</div>
 			<div class="row">
 				<div class="col-md-12">
@@ -54,7 +73,7 @@
 							<p class="card-text">
 								<img src="{% static 'img/luciano-ramalho.png' %}" alt="Foto de Luciano Ramalho" class="img-thumbnail float-left mr-3" >
 							    Ramalho é sócio e professor na <a href="https://www.python.pro.br">Python Pro</a> e autor do Livro
-								Python Fluente. Foi diretor técnico do Brasil Online, primeiro portal da Abril S/A na Web.
+								<a href="https://www.oreilly.com/library/view/fluent-python/9781491946237/" target="_blank">Python Fluente</a>. Foi diretor técnico do Brasil Online, primeiro portal da Abril S/A na Web.
 								Liderou times para os portais IDG Now, BOL, UOL, AOL Brasil e outros, usando Python desde 1998.
 								Como instrutor, atendeu clientes como Citibank, CPqD, Serpro, Presidência da República,
 								Globo.com e Itaú. Palestrante em eventos internacionais como FISL, PyCon US e OSCON. Ajudou a
@@ -94,3 +113,13 @@
   </footer>
   </body>
 </html>
+
+
+
+
+
+
+
+
+
+
