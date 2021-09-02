@@ -10,6 +10,7 @@ from pypro.modulos.models import Modulo
 def modulos(db):
     return mommy.make(Modulo, 2)
 
+
 @pytest.fixture
 def resp(client, modulos):
     resp = client.get(reverse('base:home'))
