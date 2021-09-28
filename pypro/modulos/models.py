@@ -7,7 +7,7 @@ class Modulo(OrderedModel):
     titulo = models.CharField(max_length=64)
     publico = models.TextField()
     descricao = models.TextField()
-    order = models.IntegerField()
+    order = models.IntegerField(editable=False)
     slug = models.SlugField(unique=True)
 
     class Meta(OrderedModel.Meta):
