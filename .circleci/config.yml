@@ -45,12 +45,12 @@ jobs:
       - checkout
       - run: cp contrib/env-sample .env
       - restore_cache:
-          key: deps-{{ checksum "learnig-django/Pipfile.lock" }}
+          key: deps-{{ checksum "learning-django/Pipfile.lock" }}
       - python/install-packages:
           pkg-manager: pipenv
       - run: pipenv sync --dev
       - save_cache:
-          key: deps-{{ checksum "learnig-django/Pipfile.lock" }}
+          key: deps-{{ checksum "learning-django/Pipfile.lock" }}
           paths:
             - "venv"
 #      - run: pipenv run pytest
