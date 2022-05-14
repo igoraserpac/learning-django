@@ -54,7 +54,7 @@ jobs:
           key: deps-{{ checksum "Pipfile.lock" }}
           paths:
             - "venv"
-      - run: pipenv run coverage run -m pytest transportadora/tests
+      - run: pipenv run coverage run -m pytest pypro
 #      - run: pipenv run pytest --cov=transportadora-puiatti --cov-report xml
       - run: pipenv run codecov
 #      - codecov/upload:
