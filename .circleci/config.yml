@@ -48,13 +48,12 @@ jobs:
           key: deps-{{ checksum "Pipfile.lock" }}
       - python/install-packages:
           pkg-manager: pipenv
-      - run: python -V
       - run: pipenv sync --dev
       - save_cache:
           key: deps-{{ checksum "Pipfile.lock" }}
           paths:
             - "venv"
-      - run: pipenv run pytest
+#      - run: pipenv run pytest
 #      - run: pipenv run pytest --cov=transportadora-puiatti --cov-report xml
 #      - run: pipenv run codecov
 #      - codecov/upload:
