@@ -48,6 +48,7 @@ jobs:
           key: deps-{{ checksum "Pipfile.lock" }}
       - python/install-packages:
           pkg-manager: pipenv
+      - run: python -V
       - run: pipenv sync --dev
       - save_cache:
           key: deps-{{ checksum "Pipfile.lock" }}
