@@ -45,7 +45,9 @@ jobs:
       - checkout
       - run: cp contrib/env-sample .env
       - restore_cache:
-          key: cache-{{ checksum "Pipfile.lock" }}
+          keys:
+            - cache-{{ checksum "Pipfile.lock" }}
+            - cache-
       - python/install-packages:
           pkg-manager: pipenv
       - run: pipenv sync --dev
