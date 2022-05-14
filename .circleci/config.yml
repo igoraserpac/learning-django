@@ -45,14 +45,12 @@ jobs:
       - checkout
       - run: cp contrib/env-sample .env
       - restore_cache:
-          keys:
-            - cache-{{ checksum "/home/circleci/project/Pipfile.lock" }}
-            - cache-
+          key: deps-{{ checksum "/home/circleci/project/Pipfile.lock" }}
       - python/install-packages:
           pkg-manager: pipenv
       - run: pipenv sync --dev
       - save_cache:
-          key: cache-{{ checksum "/home/circleci/project/Pipfile.lock" }}
+          key: deps-{{ checksum "/home/circleci/project/Pipfile.lock" }}
           paths:
             - "venv"
 #      - run: pipenv run pytest
