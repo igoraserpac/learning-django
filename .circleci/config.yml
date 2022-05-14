@@ -38,7 +38,7 @@ jobs:
 #      - codecov/upload:
 #          file: coverage.xml
     docker:
-      - image: cimg/python:3.10.2
+      - image: circleci/python:3.9.6
         environment:
           PIPENV_VENV_IN_PROJECT: true
     steps:
