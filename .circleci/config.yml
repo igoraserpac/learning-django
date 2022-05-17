@@ -39,7 +39,7 @@ jobs:
       - run: pipenv run chmod +x codecov
       - run: pipenv run ./codecov
       - codecov/upload:
-          file: ./coverage.xml
+          file: coverage.xml
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
