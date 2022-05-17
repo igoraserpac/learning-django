@@ -53,26 +53,20 @@ jobs:
           key: deps-{{ checksum "Pipfile.lock" }}
           paths:
             - "venv"
-      - run: pipenv install pytest codecov pytest-cov coverage
-      - run: pipenv run curl -Os https://uploader.codecov.io/latest/linux/codecov
-      - run: pipenv run chmod +x codecov
-      - run: pipenv run coverage run -m pytest pypro
-#      - run: pipenv run pytest
-#      - run: pipenv run pytest --cov-report xml
-      - run: pipenv run codecov
-#      - codecov/upload:
-#          file: coverage.xml
 
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
 workflows:
-#  main:
-#    jobs:
-#      - python/test:
-#          args: '--dev'
-#          pkg-manager: pipenv
-#          test-tool: pytest
+  main:
+    jobs:
+      - python/test:
+          args: '--dev'
+          pkg-manager: pipenv
+          test-tool: pytest
+
+      - codecov/upload:
+          file: coverage.xml
   sample: # This is the name of the workflow, feel free to change it to better match your workflow.
     # Inside the workflow, you define the jobs you want to run.
     jobs:
