@@ -23,6 +23,7 @@ model-bakery = "*"
 flake8 = "*"
 pytest-cov = "*"
 codecov = "*"
+psycopg2 = "*"
 
 [requires]
 python_version = "3.9"
