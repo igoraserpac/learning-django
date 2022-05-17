@@ -53,13 +53,14 @@ jobs:
           key: deps-{{ checksum "Pipfile.lock" }}
           paths:
             - "venv"
+      -run: pipenv run coverage run -m pytest pypro/.*/tests
 #      - run: pipenv run pytest
-      - run: pipenv run curl -Os https://uploader.codecov.io/latest/linux/codecov
+#      - run: pipenv run curl -Os https://uploader.codecov.io/latest/linux/codecov
 #      - run: pipenv run pytest --cov-report xml
-      - run: pipenv run chmod +x codecov
+#      - run: pipenv run chmod +x codecov
       - run: pipenv run codecov
-      - codecov/upload:
-          file: coverage.xml
+#      - codecov/upload:
+#          file: coverage.xml
 
 
 # Invoke jobs via workflows
