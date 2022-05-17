@@ -17,49 +17,50 @@ orbs:
 # See: https://circleci.com/docs/2.0/configuration-reference/#jobs
 jobs:
   build-and-test:
-    docker:
-      - image: circleci/python:3.9.6
-    steps:
-      - checkout
-      - python/install-packages:
-          pkg-manager: pipenv
-      - run: pip install --upgrade pip
-      - run: pip install pipenv
-      - run: pipenv install pytest codecov pytest-cov coverage
-      - run: pipenv sync
-      - run: cp contrib/env-sample .env
-      - run: pipenv run curl -Os https://uploader.codecov.io/latest/linux/codecov
-      - run: pipenv run chmod +x codecov
-      - run: pipenv run ./codecov -t $CODECOV_TOKEN
-      - run: pipenv run pytest --cov=pypro
-      - run: pipenv run coverage run -m pytest pypro
-      - run: pipenv run codecov
-      - run: pipenv run coverage xml
-      - codecov/upload:
-          file: coverage.xml
 #    docker:
 #      - image: circleci/python:3.9.6
-#        environment:
-#          PIPENV_VENV_IN_PROJECT: true
 #    steps:
 #      - checkout
-#      - run: cp contrib/env-sample .env
-#      - restore_cache:
-#          key: deps-{{ checksum "Pipfile.lock" }}
 #      - python/install-packages:
 #          pkg-manager: pipenv
-#      - run: pipenv sync --dev
-#      - save_cache:
-#          key: deps-{{ checksum "Pipfile.lock" }}
-#          paths:
-#            - "venv"
-##      - run: pipenv run pytest
+#      - run: pip install --upgrade pip
+#      - run: pip install pipenv
+#      - run: pipenv install pytest codecov pytest-cov coverage
+#      - run: pipenv sync
+#      - run: cp contrib/env-sample .env
 #      - run: pipenv run curl -Os https://uploader.codecov.io/latest/linux/codecov
-#      - run: pipenv run pytest --cov-report xml
 #      - run: pipenv run chmod +x codecov
-##      - run: pipenv run ./codecov
+#      - run: pipenv run ./codecov -t $CODECOV_TOKEN
+#      - run: pipenv run pytest --cov=pypro
+#      - run: pipenv run coverage run -m pytest pypro
+#      - run: pipenv run codecov
+#      - run: pipenv run coverage xml
 #      - codecov/upload:
 #          file: coverage.xml
+    docker:
+      - image: circleci/python:3.9.6
+        environment:
+          PIPENV_VENV_IN_PROJECT: true
+    steps:
+      - checkout
+      - run: cp contrib/env-sample .env
+      - restore_cache:
+          key: deps-{{ checksum "Pipfile.lock" }}
+      - python/install-packages:
+          pkg-manager: pipenv
+      - run: pipenv sync --dev
+      - save_cache:
+          key: deps-{{ checksum "Pipfile.lock" }}
+          paths:
+            - "venv"
+#      - run: pipenv run pytest
+      - setup_remote_docker
+      - run: pipenv run curl -Os https://uploader.codecov.io/latest/linux/codecov
+      - run: pipenv run pytest --cov-report xml
+      - run: pipenv run chmod +x codecov
+#      - run: pipenv run ./codecov
+      - codecov/upload:
+          file: coverage.xml
 
 
 # Invoke jobs via workflows
