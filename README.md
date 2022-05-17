@@ -1,11 +1,5 @@
 <h1 align="center"> Learning Django </h1>
 
-### Acesso ao projeto
-
-Aplicação disponivel [nesse link](https://pythonprodjango-ic.herokuapp.com/).
-
-###
-
 <div align="center">
 
 [![CircleCI](https://circleci.com/gh/igoraserpac/learning-django/tree/main.svg?style=svg)](https://circleci.com/gh/igoraserpac/learning-django/tree/main)
@@ -15,6 +9,12 @@ Aplicação disponivel [nesse link](https://pythonprodjango-ic.herokuapp.com/).
 
 </div>
 <br>
+
+### Acesso ao projeto
+
+Aplicação disponivel [nesse link](https://pythonprodjango-ic.herokuapp.com/).
+
+
 
 ### Descrição do projeto 
 
