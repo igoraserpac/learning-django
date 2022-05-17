@@ -1,6 +1,6 @@
 import pytest
 from django.urls import reverse
-from model_mommy import mommy
+from model_bakery import baker
 
 from pypro.django_assertions import assert_contains, assert_not_contains
 
@@ -16,7 +16,7 @@ def test_login_form_page(resp):
 
 @pytest.fixture
 def usuario(db, django_user_model):
-    usuario_modelo = mommy.make(django_user_model)
+    usuario_modelo = baker.make(django_user_model)
     senha = 'senha'
     usuario_modelo.set_password(senha)
     usuario_modelo.save()
