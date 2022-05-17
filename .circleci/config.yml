@@ -54,8 +54,8 @@ jobs:
           paths:
             - "venv"
 #      - run: pipenv run pytest
-      - run: pipenv run pytest --cov=pypro --cov-report xml
       - run: pipenv run curl -Os https://uploader.codecov.io/latest/linux/codecov
+      - run: pipenv run pytest --cov=pypro --cov-report xml
       - run: pipenv run chmod +x codecov
 #      - run: pipenv run codecov
       - codecov/upload:
