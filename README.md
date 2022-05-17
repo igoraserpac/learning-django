@@ -1,5 +1,7 @@
 <h1 align="center"> Learning Django </h1>
 
+<br>
+
 <div align="center">
 
 [![CircleCI](https://circleci.com/gh/igoraserpac/learning-django/tree/main.svg?style=svg)](https://circleci.com/gh/igoraserpac/learning-django/tree/main)
