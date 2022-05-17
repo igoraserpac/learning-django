@@ -37,7 +37,7 @@ jobs:
       - run: pipenv run pytest --cov-report xml
       - run: pipenv run curl -Os https://uploader.codecov.io/latest/linux/codecov
       - run: pipenv run chmod +x codecov
-      - run: pipenv run codecov -t '22b21e81-6838-4419-8455-ba201c2a7ec6'
+      - run: pipenv run codecov
       - codecov/upload:
           file: coverage.xml
 
