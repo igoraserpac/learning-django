@@ -1,5 +1,4 @@
-<h1 align="center">Learning Django</h1>
-
+<h1 align="center" style="color:darkgreen">Learning Django</h1>
 <br>
 
 <div align="center">
