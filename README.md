@@ -1,6 +1,4 @@
-<h1 align="center" bgcolor="#E0FFFF">
-{c:#092E20} Learning Django {/c}
-</h1>
+<h1 align="center">Learning Django</h1>
 
 <br>
 
