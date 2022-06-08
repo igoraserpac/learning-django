@@ -10,8 +10,8 @@
 
 [![git](https://badgen.net/badge/icon/git?icon=git&label)](https://git-scm.com)
 [![GitHub](https://badgen.net/badge/icon/github?icon=github&label)](https://github.com)
-[![CircleCI](https://badgen.net/badge/icon/circleci?icon=circleci&label)](https://https://circleci.com/)
-[![Docker](https://badgen.net/badge/icon/docker?icon=docker&label)](https://https://docker.com/)
+[![CircleCI](https://badgen.net/badge/icon/circleci?icon=circleci&label)](https://circleci.com/)
+[![Docker](https://badgen.net/badge/icon/docker?icon=docker&label)](https://docker.com/)
 
 <img src="https://static.djangoproject.com/img/logos/django-logo-negative.svg" height="30">
 <img src="https://www.python.org/static/community_logos/python-logo-generic.svg" height="30">
