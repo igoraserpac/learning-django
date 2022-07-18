@@ -372,7 +372,7 @@
         },
         "setuptools": {
             "hashes": [],
-            "version": "==63.1.0"
+            "version": "==63.2.0"
         },
         "six": {
             "hashes": [
