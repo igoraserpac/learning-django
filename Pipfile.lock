@@ -368,7 +368,7 @@
         },
         "sentry-sdk": {
             "hashes": [],
-            "version": "==1.7.0"
+            "version": "==1.7.2"
         },
         "setuptools": {
             "hashes": [],
