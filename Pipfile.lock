@@ -361,7 +361,7 @@
         },
         "setuptools": {
             "hashes": [],
-            "version": "==63.2.0"
+            "version": "==63.3.0"
         },
         "six": {
             "hashes": [
