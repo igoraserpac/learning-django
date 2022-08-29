@@ -340,7 +340,7 @@
         },
         "setuptools": {
             "hashes": [],
-            "version": "==63.3.0"
+            "version": "==65.3.0"
         },
         "six": {
             "hashes": [
