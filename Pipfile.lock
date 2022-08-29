@@ -420,7 +420,7 @@
         },
         "coverage": {
             "hashes": [],
-            "version": "==6.4.2"
+            "version": "==6.4.4"
         },
         "flake8": {
             "hashes": [],
