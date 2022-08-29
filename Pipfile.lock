@@ -150,11 +150,8 @@
             "version": "==0.1.6"
         },
         "model-bakery": {
-            "hashes": [
-                "sha256:51f95fff4ca4b28d74db28e84509a061ab51161cb66c8895ce80e4b064f58029",
-                "sha256:efded7c4d8f72f9b751eebe3be555196dcac7e1d5da9e7f990cec60833c6bf98"
-            ],
-            "version": "==1.6.0"
+            "hashes": [],
+            "version": "==1.7.0"
         },
         "packaging": {
             "hashes": [
