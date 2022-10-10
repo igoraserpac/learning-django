@@ -145,7 +145,7 @@
         },
         "model-bakery": {
             "hashes": [],
-            "version": "==1.7.0"
+            "version": "==1.7.1"
         },
         "packaging": {
             "hashes": [
