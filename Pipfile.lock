@@ -269,7 +269,7 @@
         },
         "setuptools": {
             "hashes": [],
-            "version": "==65.5.1"
+            "version": "==65.6.0"
         },
         "six": {
             "hashes": [
