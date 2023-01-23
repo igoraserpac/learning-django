@@ -317,7 +317,7 @@
         },
         "coverage": {
             "hashes": [],
-            "version": "==6.5.0"
+            "version": "==7.0.5"
         },
         "flake8": {
             "hashes": [],
