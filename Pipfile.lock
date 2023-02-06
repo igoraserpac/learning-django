@@ -286,7 +286,7 @@
         },
         "urllib3": {
             "hashes": [],
-            "version": "==1.26.12"
+            "version": "==1.26.14"
         },
         "wcwidth": {
             "hashes": [
@@ -403,7 +403,7 @@
         },
         "urllib3": {
             "hashes": [],
-            "version": "==1.26.12"
+            "version": "==1.26.14"
         }
     }
 }
