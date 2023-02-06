@@ -250,7 +250,7 @@
         },
         "setuptools": {
             "hashes": [],
-            "version": "==65.5.1"
+            "version": "==67.1.0"
         },
         "six": {
             "hashes": [
