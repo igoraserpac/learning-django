@@ -170,7 +170,7 @@
         },
         "prompt-toolkit": {
             "hashes": [],
-            "version": "==3.0.36"
+            "version": "==3.0.38"
         },
         "psycopg2-binary": {
             "hashes": [],
