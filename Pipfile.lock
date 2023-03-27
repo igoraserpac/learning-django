@@ -37,7 +37,7 @@
         },
         "boto3": {
             "hashes": [],
-            "version": "==1.26.64"
+            "version": "==1.26.99"
         },
         "botocore": {
             "hashes": [],
