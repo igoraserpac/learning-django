@@ -131,7 +131,7 @@
         },
         "packaging": {
             "hashes": [],
-            "version": "==23.0"
+            "version": "==23.1"
         },
         "parso": {
             "hashes": [
@@ -333,7 +333,7 @@
         },
         "packaging": {
             "hashes": [],
-            "version": "==23.0"
+            "version": "==23.1"
         },
         "pluggy": {
             "hashes": [
