@@ -108,7 +108,7 @@
         },
         "ipython": {
             "hashes": [],
-            "version": "==8.9.0"
+            "version": "==8.15.0"
         },
         "jedi": {
             "hashes": [],
