@@ -232,7 +232,7 @@
         },
         "setuptools": {
             "hashes": [],
-            "version": "==67.1.0"
+            "version": "==68.2.2"
         },
         "six": {
             "hashes": [
