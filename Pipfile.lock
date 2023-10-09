@@ -260,7 +260,7 @@
         },
         "traitlets": {
             "hashes": [],
-            "version": "==5.9.0"
+            "version": "==5.11.2"
         },
         "typing-extensions": {
             "hashes": [],
