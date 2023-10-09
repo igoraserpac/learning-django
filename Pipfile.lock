@@ -264,7 +264,7 @@
         },
         "typing-extensions": {
             "hashes": [],
-            "version": "==4.4.0"
+            "version": "==4.8.0"
         },
         "urllib3": {
             "hashes": [],
