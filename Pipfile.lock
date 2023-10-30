@@ -200,7 +200,7 @@
         },
         "pytest": {
             "hashes": [],
-            "version": "==7.2.1"
+            "version": "==7.4.3"
         },
         "pytest-django": {
             "hashes": [
@@ -357,7 +357,7 @@
         },
         "pytest": {
             "hashes": [],
-            "version": "==7.2.1"
+            "version": "==7.4.3"
         },
         "pytest-cov": {
             "hashes": [],
