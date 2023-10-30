@@ -256,7 +256,7 @@
         },
         "traitlets": {
             "hashes": [],
-            "version": "==5.9.0"
+            "version": "==5.13.0"
         },
         "typing-extensions": {
             "hashes": [],
