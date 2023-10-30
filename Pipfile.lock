@@ -22,7 +22,7 @@
         },
         "asttokens": {
             "hashes": [],
-            "version": "==2.2.1"
+            "version": "==2.4.1"
         },
         "attrs": {
             "hashes": [],
