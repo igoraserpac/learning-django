@@ -333,7 +333,7 @@
         },
         "pycodestyle": {
             "hashes": [],
-            "version": "==2.10.0"
+            "version": "==2.11.1"
         },
         "pyflakes": {
             "hashes": [],
