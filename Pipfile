@@ -18,6 +18,7 @@ django-ordered-model = "*"
 ipython = "*"
 django-extensions = "*"
 model-bakery = "*"
+codecov = "*"
 
 [dev-packages]
 flake8 = "*"
