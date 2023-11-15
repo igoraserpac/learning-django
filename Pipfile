@@ -19,6 +19,7 @@ ipython = "*"
 django-extensions = "*"
 model-bakery = "*"
 codecov = "*"
+urllib3 = "*"
 
 [dev-packages]
 flake8 = "*"
