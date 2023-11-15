@@ -35,7 +35,7 @@ jobs:
           paths:
             - "venv"
       - run: pipenv run curl -Os https://uploader.codecov.io/latest/linux/codecov
-      - run: pip install exceptiongroup
+      - run: pipenv install exceptiongroup
       - run: pipenv run pytest --cov-report xml
       - run: pipenv run chmod +x codecov
       - run: pipenv run codecov
