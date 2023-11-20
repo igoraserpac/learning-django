@@ -490,12 +490,8 @@
             "version": "==0.2.2"
         },
         "pygments": {
-            "hashes": [
-                "sha256:13fc09fa63bc8d8671a6d247e1eb303c4b343eaee81d861f3404db2935653692",
-                "sha256:1daff0494820c69bc8941e407aa20f577374ee88364ee10a98fdbe0aece96e29"
-            ],
-            "markers": "python_version >= '3.7'",
-            "version": "==2.16.1"
+            "hashes": [],
+            "version": "==2.17.1"
         },
         "pytest": {
             "hashes": [
