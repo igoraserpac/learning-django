@@ -522,12 +522,8 @@
             "version": "==0.8.0"
         },
         "sentry-sdk": {
-            "hashes": [
-                "sha256:04e392db9a0d59bd49a51b9e3a92410ac5867556820465057c2ef89a38e953e9",
-                "sha256:a7865952701e46d38b41315c16c075367675c48d049b90a4cc2e41991ebc7efa"
-            ],
-            "index": "pypi",
-            "version": "==1.35.0"
+            "hashes": [],
+            "version": "==1.37.1"
         },
         "six": {
             "hashes": [
