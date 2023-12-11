@@ -37,7 +37,7 @@
         },
         "botocore": {
             "hashes": [],
-            "version": "==1.32.7"
+            "version": "==1.33.11"
         },
         "certifi": {
             "hashes": [],
