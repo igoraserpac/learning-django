@@ -253,7 +253,7 @@
         },
         "ipython": {
             "hashes": [],
-            "version": "==8.18.1"
+            "version": "==8.20.0"
         },
         "jedi": {
             "hashes": [
