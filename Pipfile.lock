@@ -41,7 +41,7 @@
         },
         "certifi": {
             "hashes": [],
-            "version": "==2023.11.17"
+            "version": "==2024.2.2"
         },
         "charset-normalizer": {
             "hashes": [
@@ -580,7 +580,7 @@
     "develop": {
         "certifi": {
             "hashes": [],
-            "version": "==2023.11.17"
+            "version": "==2024.2.2"
         },
         "charset-normalizer": {
             "hashes": [
