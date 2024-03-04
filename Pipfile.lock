@@ -441,7 +441,7 @@
         },
         "sentry-sdk": {
             "hashes": [],
-            "version": "==1.37.1"
+            "version": "==1.40.6"
         },
         "six": {
             "hashes": [
