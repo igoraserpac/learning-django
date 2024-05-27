@@ -440,7 +440,7 @@
         },
         "traitlets": {
             "hashes": [],
-            "version": "==5.14.0"
+            "version": "==5.14.3"
         },
         "typing-extensions": {
             "hashes": [
