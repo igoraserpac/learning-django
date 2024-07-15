@@ -205,7 +205,7 @@
         },
         "exceptiongroup": {
             "hashes": [],
-            "version": "==1.2.0"
+            "version": "==1.2.2"
         },
         "executing": {
             "hashes": [
@@ -619,7 +619,7 @@
         },
         "exceptiongroup": {
             "hashes": [],
-            "version": "==1.2.0"
+            "version": "==1.2.2"
         },
         "flake8": {
             "hashes": [
