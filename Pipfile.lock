@@ -180,12 +180,8 @@
             "version": "==1.5.0"
         },
         "prompt-toolkit": {
-            "hashes": [
-                "sha256:941367d97fc815548822aa26c2a269fdc4eb21e9ec05fc5d447cf09bad5d75f0",
-                "sha256:f36fe301fafb7470e86aaf90f036eef600a3210be4decf461a5b1ca8403d3cb2"
-            ],
-            "markers": "python_full_version >= '3.7.0'",
-            "version": "==3.0.41"
+            "hashes": [],
+            "version": "==3.0.48"
         },
         "psycopg2-binary": {
             "hashes": [
