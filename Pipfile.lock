@@ -160,12 +160,8 @@
             "version": "==0.1.7"
         },
         "model-bakery": {
-            "hashes": [
-                "sha256:1d26f1a7043c46e6729145b964a7740bf8f6dddac16510fd18323a1492fba757",
-                "sha256:fe808132cd966164600f0450cc05b3cfa50c6c062e00f739a861c5a4b9f236ca"
-            ],
-            "index": "pypi",
-            "version": "==1.17.0"
+            "hashes": [],
+            "version": "==1.20.0"
         },
         "packaging": {
             "hashes": [
