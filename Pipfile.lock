@@ -228,7 +228,7 @@
         },
         "s3transfer": {
             "hashes": [],
-            "version": "==0.8.0"
+            "version": "==0.10.3"
         },
         "sentry-sdk": {
             "hashes": [],
