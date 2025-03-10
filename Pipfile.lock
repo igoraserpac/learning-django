@@ -130,7 +130,7 @@
         },
         "ipython": {
             "hashes": [],
-            "version": "==8.18.1"
+            "version": "==9.0.2"
         },
         "jedi": {
             "hashes": [
