@@ -21,11 +21,8 @@
             "version": "==3.8.1"
         },
         "asttokens": {
-            "hashes": [
-                "sha256:051ed49c3dcae8913ea7cd08e46a606dba30b79993209636c4875bc1d637bc24",
-                "sha256:b03869718ba9a6eb027e134bfdf69f38a236d681c83c160d510768af11254ba0"
-            ],
-            "version": "==2.4.1"
+            "hashes": [],
+            "version": "==3.0.0"
         },
         "boto3": {
             "hashes": [],
