@@ -114,7 +114,7 @@
         },
         "idna": {
             "hashes": [],
-            "version": "==3.6"
+            "version": "==3.16"
         },
         "iniconfig": {
             "hashes": [
@@ -428,7 +428,7 @@
         },
         "idna": {
             "hashes": [],
-            "version": "==3.6"
+            "version": "==3.16"
         },
         "iniconfig": {
             "hashes": [
